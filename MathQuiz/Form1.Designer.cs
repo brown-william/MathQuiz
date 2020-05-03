@@ -328,6 +328,7 @@
             this.MaximizeBox = false;
             this.Name = "Nate_Brown_Math_Quiz";
             this.Text = "Nate Brown Math Quiz";
+            this.Load += new System.EventHandler(this.Nate_Brown_Math_Quiz_Load);
             ((System.ComponentModel.ISupportInitialize)(this.sum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quotient)).EndInit();

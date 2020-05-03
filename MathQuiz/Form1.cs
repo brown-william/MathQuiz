@@ -109,6 +109,7 @@ namespace MathQuiz
         {
             if(CheckTheAnswer())
             {
+                timeLabel.ForeColor = Color.Black;
                 timer1.Stop();
                 MessageBox.Show("You got all the answers right!", "Congratulations!");
                 startButton.Enabled = true;
@@ -157,6 +158,11 @@ namespace MathQuiz
         {
 
 
+
+        }
+
+        private void Nate_Brown_Math_Quiz_Load(object sender, EventArgs e)
+        {
 
         }
     }
